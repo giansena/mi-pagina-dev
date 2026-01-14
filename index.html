@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gian Carlo Sena | Creador de Landing Pages</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Gian Carlo Sena<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#contacto" class="btn-nav">Contratar</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Diseño Landing Pages que <span class="highlight">Convierten Visitas en Clientes</span></h1>
+            <p>Ayudo a negocios y emprendedores a destacar en internet con sitios web rápidos, modernos y optimizados para la venta.</p>
+            <div class="hero-btns">
+                <a href="#portafolio" class="btn btn-primary">Ver mis trabajos</a>
+                <a href="#contacto" class="btn btn-secondary">Hablemos</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2 class="section-title">Lo que puedo hacer por vos</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <i class="fas fa-laptop-code icon"></i>
+                    <h3>Landing Pages</h3>
+                    <p>Páginas de aterrizaje diseñadas específicamente para campañas de marketing y captación de leads.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-mobile-alt icon"></i>
+                    <h3>Diseño Responsive</h3>
+                    <p>Tu sitio se verá perfecto en celulares, tablets y computadoras de escritorio.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-rocket icon"></i>
+                    <h3>Optimización (SEO)</h3>
+                    <p>Código limpio y veloz para que Google ame tu página tanto como tus clientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portafolio" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos Recientes</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <span>Proyecto Inmobiliaria</span>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Landing Inmobiliaria</h3>
+                        <p>Página de captación para venta de departamentos.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                         <span>Proyecto E-commerce</span>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Promo E-commerce</h3>
+                        <p>Página de lanzamiento para producto físico.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                         <span>Proyecto Personal</span>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Consultoría</h3>
+                        <p>Sitio web para consultor financiero.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container contact-container">
+            <div class="contact-text">
+                <h2>¿Listo para empezar?</h2>
+                <p>Contame sobre tu proyecto. Si buscas calidad y atención al detalle, soy la persona correcta.</p>
+                <ul class="contact-details">
+                    <li><i class="fas fa-envelope"></i> gian.sena@email.com</li>
+                    <li><i class="fab fa-whatsapp"></i> +123 456 789</li>
+                </ul>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="email" placeholder="Tu Email" required>
+                <textarea rows="5" placeholder="¿En qué puedo ayudarte?" required></textarea>
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Gian Carlo Sena. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
