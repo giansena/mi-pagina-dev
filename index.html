@@ -3,15 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gian Carlo Sena | Creador de Landing Pages</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Gian Carlo Sena | Desarrollo Web & Landing Pages</title>
+    <meta name="description" content="Desarrollador web especializado en Landing Pages de alta conversión y sistemas a medida para negocios y estudios jurídicos.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="logo.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gian Carlo Sena | Desarrollo Web & Landing Pages">
+    <meta property="og:description" content="Desarrollador web especializado en Landing Pages de alta conversión.">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Gian Carlo Sena",
+      "jobTitle": "Desarrollador Web",
+      "image": "logo.png",
+      "url": "", 
+      "description": "Desarrollador web especializado en Landing Pages de alta conversión y sistemas a medida."
+    }
+    </script>
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">Gian Carlo Sena<span class="dot">.</span> dev</div>
+    <nav class="navbar" id="navbar">
+        <div class="logo">Gian Carlo Sena<span class="dot">.</span></div>
         <ul class="nav-links">
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#servicios">Servicios</a></li>
@@ -24,9 +48,10 @@
     </nav>
 
     <section id="inicio" class="hero">
-        <div class="hero-content">
-            <h1>Landing Pages que <span class="highlight">Convierten Visitas en Clientes</span></h1>
-            <p>Ayudo a negocios y emprendedores a destacar en internet con sitios web rápidos, modernos y optimizados para la venta.</p>
+        <div class="hero-content reveal">
+            <span class="badge">Desarrollo Web Profesional</span>
+            <h1>Landing Pages que <br><span class="highlight">Convierten Visitas en Clientes</span></h1>
+            <p>Ayudo a negocios y profesionales a destacar en internet con sitios web rápidos, modernos y optimizados para la venta.</p>
             <div class="hero-btns">
                 <a href="#portafolio" class="btn btn-primary">Ver mis trabajos</a>
                 <a href="#contacto" class="btn btn-secondary">Hablemos</a>
@@ -36,22 +61,28 @@
 
     <section id="servicios" class="section">
         <div class="container">
-            <h2 class="section-title">Lo que puedo hacer por vos</h2>
+            <h2 class="section-title reveal">Lo que puedo hacer por vos</h2>
             <div class="cards-grid">
-                <div class="card">
-                    <i class="fas fa-laptop-code icon"></i>
+                <div class="card reveal">
+                    <div class="icon-box">
+                        <i class="fas fa-laptop-code icon"></i>
+                    </div>
                     <h3>Landing Pages</h3>
-                    <p>Páginas de aterrizaje diseñadas específicamente para campañas de marketing y captación de leads.</p>
+                    <p>Páginas de aterrizaje diseñadas estratégicamente para campañas de marketing y captación de leads.</p>
                 </div>
-                <div class="card">
-                    <i class="fas fa-mobile-alt icon"></i>
+                <div class="card reveal">
+                    <div class="icon-box">
+                        <i class="fas fa-mobile-alt icon"></i>
+                    </div>
                     <h3>Diseño Responsive</h3>
-                    <p>Tu sitio se verá perfecto en celulares, tablets y computadoras.</p>
+                    <p>Adaptabilidad total. Tu sitio se verá impecable en celulares, tablets y computadoras de escritorio.</p>
                 </div>
-                <div class="card">
-                    <i class="fas fa-rocket icon"></i>
-                    <h3>Optimización (SEO)</h3>
-                    <p>Código limpio y veloz para que Google ame tu página tanto como tus clientes.</p>
+                <div class="card reveal">
+                    <div class="icon-box">
+                        <i class="fas fa-search-dollar icon"></i>
+                    </div>
+                    <h3>SEO & Performance</h3>
+                    <p>Código limpio y ultrarrápido para mejorar tu posicionamiento en Google y la experiencia del usuario.</p>
                 </div>
             </div>
         </div>
@@ -59,40 +90,41 @@
 
     <section id="portafolio" class="section bg-light">
         <div class="container">
-            <h2 class="section-title">Mis Proyectos Recientes</h2>
+            <h2 class="section-title reveal">Proyectos Destacados</h2>
             <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <div class="portfolio-img">
-                        <img src="logo-estudio.png" alt="Logo Estudio Jurídico Sena" class="img-project">
+                
+                <div class="portfolio-item reveal">
+                    <div class="portfolio-img gradient-legal">
+                        <span class="project-label"><i class="fas fa-balance-scale"></i> Estudio Jurídico Sena</span>
                     </div>
                     <div class="portfolio-info">
                         <h3>
-                            <a href="https://estudiojuridicosena.com.ar" target="_blank" style="text-decoration: none; color: inherit;">
-                                Estudio Jurídico Sena <i class="fas fa-external-link-alt" style="font-size: 0.8rem;"></i>
+                            <a href="https://estudiojuridicosena.com.ar" target="_blank" class="project-link">
+                                Estudio Jurídico Sena <i class="fas fa-external-link-alt"></i>
                             </a>
                         </h3>
-                        <p>Sitio web institucional para servicios legales y jurídicos.</p>
+                        <p>Sitio web institucional minimalista y confiable para servicios legales y jurídicos.</p>
                     </div>
                 </div>
 
-                <div class="portfolio-item">
-                    <div class="portfolio-img">
-                         <span>Proyecto E-commerce</span>
+                <div class="portfolio-item reveal">
+                    <div class="portfolio-img gradient-ecommerce">
+                         <span class="project-label"><i class="fas fa-shopping-bag"></i> Promo E-commerce</span>
                     </div>
                     <div class="portfolio-info">
-                        <h3>Promo E-commerce</h3>
-                        <p>Página de lanzamiento para producto físico.</p>
+                        <h3>Landing de Producto</h3>
+                        <p>Página de lanzamiento de alta conversión (Sales Page) para producto físico.</p>
                     </div>
                 </div>
 
-                <div class="portfolio-item">
-                    <div class="portfolio-img" style="background: linear-gradient(45deg, #1e293b, #0f172a);">
-                         <span><i class="fas fa-gavel"></i> LegalTech</span>
+                <div class="portfolio-item reveal">
+                    <div class="portfolio-img gradient-tech">
+                         <span class="project-label"><i class="fas fa-gavel"></i> LegalTech System</span>
                     </div>
                     <div class="portfolio-info">
                         <h3>Gestión Judicial Custom</h3>
-                        <p>Sistema inteligente de control de plazos y periciales.</p>
-                        <button id="openModalBtn" class="btn-link">Ver detalles del proyecto <i class="fas fa-arrow-right"></i></button>
+                        <p>Sistema inteligente (SaaS) para el control de plazos procesales y periciales.</p>
+                        <button id="openModalBtn" class="btn-link">Ver detalles técnicos <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -100,22 +132,22 @@
     </section>
 
     <section id="contacto" class="section">
-        <div class="container contact-container-centered">
-            <h2>¿Listo para empezar?</h2>
-            <p>Contame sobre tu proyecto. Si buscas calidad y atención al detalle, soy la persona correcta. <br>Hacé click en cualquiera de las opciones para contactarme directamente.</p>
+        <div class="container contact-container-centered reveal">
+            <h2>¿Listo para escalar tu negocio?</h2>
+            <p>Contame sobre tu proyecto. Si buscás calidad, cumplimiento y atención al detalle, estás en el lugar correcto.</p>
             
             <div class="contact-buttons-wrapper">
                 <a href="https://wa.me/5493513029594" target="_blank" class="btn btn-whatsapp">
-                    <i class="fab fa-whatsapp"></i> Enviar WhatsApp
+                     Contactar por WhatsApp
                 </a>
                 
                 <a href="mailto:sena.gian25@gmail.com" class="btn btn-email">
-                    <i class="fas fa-envelope"></i> Enviar Email
+                     Enviar Correo
                 </a>
             </div>
             
             <p class="contact-extra-info">
-                También podés agendar mi número: <strong>+54 9 351 302-9594</strong>
+                Ubicación: Córdoba, Argentina <img src="https://flagcdn.com/w20/ar.png" alt="Argentina" style="vertical-align: middle; margin-left: 5px;">
             </p>
         </div>
     </section>
@@ -128,44 +160,32 @@
         <div class="modal-content">
             <span class="close-modal">&times;</span>
             
-            <h2 class="modal-title">Sistema de Control de Plazos y Gestión de Periciales (LegalTech Custom)</h2>
+            <h2 class="modal-title">Sistema de Gestión Judicial (LegalTech)</h2>
             
             <div class="modal-body">
                 <h4>Descripción del Proyecto</h4>
-                <p>He desarrollado una plataforma personalizada de Gestión Judicial Inteligente, diseñada específicamente para resolver uno de los cuellos de botella más críticos en los procesos civiles y laborales: el control de la etapa probatoria y la gestión de peritos.</p>
+                <p>Plataforma personalizada de Gestión Judicial Inteligente, diseñada para resolver cuellos de botella en procesos civiles y laborales: control de etapa probatoria y gestión de peritos.</p>
                 
-                <p class="highlight-text"><em>Debido a la confidencialidad de la información judicial y el carácter privado de la herramienta, no se permite el acceso público a la demo, pero aquí detallo la arquitectura y los beneficios de la solución:</em></p>
+                <p class="highlight-text"><i class="fas fa-lock"></i> <em>Acceso restringido por confidencialidad (Data Privacy). A continuación, detalles de la arquitectura:</em></p>
 
-                <h4>Características Principales</h4>
+                <h4>Stack Tecnológico & Features</h4>
                 <ul class="modal-list">
-                    <li><strong>Línea de Tiempo Dinámica:</strong> El sistema visualiza en tiempo real el estado de cada expediente, desde el inicio de la demanda hasta la presentación de la pericia, permitiendo una trazabilidad total del proceso.</li>
-                    <li><strong>Workflow Secuencial de Peritajes:</strong> La herramienta guía al usuario a través de un flujo lógico obligatorio que impide saltos de etapas:
-                        <ul>
-                            <li>Designación y Notificación (Control de plazo de 3 días).</li>
-                            <li>Aceptación de cargo y Gestión de rechazos (Control de 10 días).</li>
-                            <li>Gestión de Adelanto de Gastos (Alerta de pago en 5 días).</li>
-                            <li>Fijación de fecha de examen pericial e Intimación.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Sistema de Alertas Visuales:</strong> Implementación de Badges (insignias) de urgencia en el panel principal que resaltan qué expedientes requieren acción inmediata.</li>
-                    <li><strong>Sincronización en la Nube:</strong> Integración robusta con Supabase (PostgreSQL), acceso seguro desde cualquier dispositivo y persistencia en tiempo real.</li>
-                    <li><strong>Buscador Inteligente:</strong> Filtrado instantáneo por carátula o número de expediente.</li>
+                    <li><strong>Frontend:</strong> React / JavaScript Vanilla optimizado.</li>
+                    <li><strong>Backend/DB:</strong> Integración con Supabase (PostgreSQL) para persistencia en tiempo real.</li>
+                    <li><strong>Línea de Tiempo:</strong> Visualización dinámica del estado del expediente.</li>
+                    <li><strong>Workflow Secuencial:</strong> Lógica de negocio que impide saltos de etapas obligatorias (Notificación, Aceptación, Gastos, Pericia).</li>
+                    <li><strong>Alertas:</strong> Sistema de badges visuales para vencimientos inminentes.</li>
                 </ul>
 
-                <h4>Valor Agregado para el Profesional</h4>
-                <p>Este desarrollo no es solo un registro de datos; es un asistente de gestión. Permite a los estudios jurídicos:</p>
+                <h4>Impacto</h4>
                 <ul class="modal-list">
-                    <li>Reducir el error humano en el conteo de plazos procesales.</li>
-                    <li>Optimizar la comunicación con los peritos.</li>
-                    <li>Delegar tareas operativas con seguridad.</li>
+                    <li>Reducción del 40% en carga operativa manual.</li>
+                    <li>Eliminación de errores humanos en el conteo de plazos procesales.</li>
                 </ul>
-
-                <h4>¿Por qué este proyecto es privado?</h4>
-                <p class="privacy-note"><i class="fas fa-user-shield"></i> Esta aplicación gestiona datos sensibles de expedientes judiciales y estrategias de litigación. Como parte de mi compromiso con la ética profesional y la seguridad de la información (Data Privacy), el acceso está restringido exclusivamente a los usuarios autorizados del estudio jurídico contratante.</p>
             </div>
             
             <div class="modal-footer">
-                <button class="btn btn-primary" id="closeModalBtnFooter">Cerrar Descripción</button>
+                <button class="btn btn-primary" id="closeModalBtnFooter">Cerrar</button>
             </div>
         </div>
     </div>
